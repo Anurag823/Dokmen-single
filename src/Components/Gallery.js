@@ -36,17 +36,7 @@ const Gallery = ({productImg,fetchImages}) => {
         <h2 className="text-center py-4">DOKMEN PRODUCT</h2>
 
         <div className="image-col">
-          {/* <div className="image-row ">
-
-                <img src="Images/Bravo Formal - 01.JPG" alt="" />
-                <img src="Images/Brio Loafer - 04.JPG" alt="" />
-                <img src="Images/Check Ankle - 03.JPG" alt="" />
-                <img src="Images/Class Formal - 01.JPG" alt="" />
-                <img src="Images/Delta Ankle - 03.JPG" alt="" />
-                <img src="Images/Matrix Ankle - 02.JPG" alt="" />
-                <img src="Images/Orion Socks - 02.JPG" alt="" />
-
-            </div> */}
+        
           <OwlCarousel
             className="owl-theme"
             loop
@@ -96,13 +86,7 @@ const Gallery = ({productImg,fetchImages}) => {
                 <img src={item.image} alt="" key={item.id} />
               )
             })}
-            {/* <img src="Images/Bravo Formal - 01.JPG" alt="" />
-            <img src="Images/Brio Loafer - 04.JPG" alt="" />
-            <img src="Images/Check Ankle - 03.JPG" alt="" />
-            <img src="Images/Class Formal - 01.JPG" alt="" />
-            <img src="Images/Delta Ankle - 03.JPG" alt="" />
-            <img src="Images/Matrix Ankle - 02.JPG" alt="" />
-            <img src="Images/Orion Socks - 02.JPG" alt="" /> */}
+        
           </OwlCarousel>
         </div>
       </div>
