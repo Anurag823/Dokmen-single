@@ -1,0 +1,22 @@
+#shopBtn{
+  height: 55px;
+  width: 55px;
+  display: none;
+  position: fixed;
+  bottom: 20px; 
+  right: 30px; 
+  z-index: 9; 
+  background-color: white;
+  color: gray;
+padding-top: 4px;
+padding-left: 2px;
+  /* padding: 14px 20px; */
+  border-radius: 50%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2) !important;
+}
+
+#shopBtn img{
+  padding: 10px;
+  width: 50px;
+
+}

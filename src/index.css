@@ -7,7 +7,8 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+  font-family: "ARB";
+  src: url("../public/Fonts/ARB\ 66\ Neon\ Line\ JUN-37.ttf");
 }
+

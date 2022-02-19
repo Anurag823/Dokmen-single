@@ -1,0 +1,9 @@
+ .carousel-img{
+    height: 100vh !important;
+}
+
+@media screen and (max-width:576px) {
+    .carousel-img{
+        height: auto !important ;
+    }
+}

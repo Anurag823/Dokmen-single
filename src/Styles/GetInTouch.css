@@ -1,0 +1,28 @@
+
+/* ::-webkit-input-placeholder { 
+    color: pink;
+  } */
+
+
+.getintouch .submit-btn input{
+    border: 2px solid #032044;
+    border-radius: 25px;
+    padding:0.3rem 1rem;
+    width: 9rem;
+    color: #032044;
+    font-weight:500;
+    background-color: transparent;
+
+}
+
+
+
+.getintouch .submit-btn input:hover{
+background-color: #032044;
+color: white;
+}
+
+.getintouch p{
+    font-size: 15px;
+    color: gray;
+}
