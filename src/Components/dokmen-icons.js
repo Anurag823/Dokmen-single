@@ -13,7 +13,7 @@ import {
   faArrowTrendUp,
 } from "@fortawesome/free-solid-svg-icons";
 
-export default function Dokmenicons(props) {
+export default function DokmenIcons(props) {
   return (
     <div>
       <div className="dokmen-icons-1" >
